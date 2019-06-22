@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {Hero} from '../hero'
+import {HEROES} from '../mock-heroes';
 
 @Component({
   //metadata properties
@@ -18,4 +19,6 @@ export class HeroesComponent implements OnInit {
     id: 1, 
     name: 'Irina'
   };
+
+  heroes = HEROES;
 }

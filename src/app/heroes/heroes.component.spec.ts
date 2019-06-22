@@ -26,6 +26,6 @@ describe('HeroesComponent', () => {
   });
 
   it('should display default hero Irina', () => {
-    expect(component.hero.name).toBe('Irina');
+    expect(component.heroes[0].name).toBe('Dr Nice');
   });
 });
